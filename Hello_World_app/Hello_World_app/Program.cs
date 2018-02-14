@@ -10,9 +10,32 @@ namespace Hello_World_app
     {
         static void Main(string[] args)
         {
-            NameAndAge();
+            //ControlFlow();
+            //NameAndAge();
             //SayHello();
             //SayHelloToUser();
+        }
+
+        static void ControlFlow()
+        {
+            Console.WriteLine("Enter an number:");
+
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            if (n > 0)
+            {
+                Console.WriteLine("Number is positive");
+            } else if (n == 0)
+            {
+                Console.WriteLine("Number is zero");
+            } else
+            {
+                Console.WriteLine("Number is negative");
+            }
+
+            Console.ReadLine();
+
+
         }
 
         static void NameAndAge()
