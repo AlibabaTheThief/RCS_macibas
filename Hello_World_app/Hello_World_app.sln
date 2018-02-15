@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_World_app", "Hello_Wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rinka_linija", "Rinka_linija\Rinka_linija.csproj", "{8477328D-7027-4954-B85A-C4DD0002A1DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers_guesing_game", "Numbers_guesing_game\Numbers_guesing_game.csproj", "{5D212D5E-846B-44F3-AC5D-3F1C938FC404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8477328D-7027-4954-B85A-C4DD0002A1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8477328D-7027-4954-B85A-C4DD0002A1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8477328D-7027-4954-B85A-C4DD0002A1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D212D5E-846B-44F3-AC5D-3F1C938FC404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D212D5E-846B-44F3-AC5D-3F1C938FC404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D212D5E-846B-44F3-AC5D-3F1C938FC404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D212D5E-846B-44F3-AC5D-3F1C938FC404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

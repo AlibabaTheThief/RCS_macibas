@@ -40,9 +40,9 @@ namespace Rinka_linija
                     Console.WriteLine("Enter a or c");
                 }
             }
-           
+
             Console.ReadLine();
-            
+
 
             //CalculateCircleArea();
             //Adding();
