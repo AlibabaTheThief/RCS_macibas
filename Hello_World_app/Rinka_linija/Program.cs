@@ -10,10 +10,74 @@ namespace Rinka_linija
     {
         static void Main(string[] args)
         {
+            string usersInput = " ";
+            while (true)
+            {
+                Console.WriteLine("Please choose action");
+                Console.WriteLine("a - calculate circle area");
+                Console.WriteLine("c - count two numbers together");
+                Console.WriteLine("d - check number division");
+                Console.WriteLine("x - to exit");
+                usersInput = Console.ReadLine();
+                if (usersInput == "a")
+                {
+                    CalculateCircleArea();
+                }
+                else if (usersInput == "c")
+                {
+                    Adding();
+                }
+                else if (usersInput == "d")
+                {
+                    DoesTheNumberDivide();
+                }
+                else if (usersInput == "x")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Enter a or c");
+                }
+            }
+           
+            Console.ReadLine();
+            
+
             //CalculateCircleArea();
-            Adding();
+            //Adding();
             //Saskaitisana();
             //CircleArea();
+            // iegust lietotaja izveli un sagaba to mainigaja
+            //Izvele();
+            // izmantojot if un salidzinasanu
+            // balstoties uz lietotaja izveleta skaitla
+            // pienem lemumu kuru funkciju izpildit
+
+        }
+        static void DoesTheNumberDivide()
+        {
+            double dalamais = GetNumberFromUser("Enter dividable number");
+            double dalitajs = GetNumberFromUser("Enter number to divide");
+            double module = dalamais % dalitajs;
+            if (module == 0)
+            {
+                Console.WriteLine("Can divide");
+            }
+            else
+            {
+                Console.WriteLine("Can't divide");
+            }
+            Console.ReadLine();
+        }
+
+        static void Izvele()
+        {
+            // izvada lietotajam pazinojumu
+            // spied 1 lai aprekinatu laukumu
+            // spied 2 lai ...
+            // saparse lietotaja ievadito tekstu uz skaitli
+            // atgriez ieguto lietotaja skaitlisko izveli
         }
 
         static void CircleArea()
