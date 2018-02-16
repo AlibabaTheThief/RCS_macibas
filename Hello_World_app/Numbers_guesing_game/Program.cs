@@ -17,9 +17,12 @@ namespace Numbers_guesing_game
             Random numberGenerator;
             numberGenerator = new Random();
             int number = numberGenerator.Next(1, maxNumber + 1);
+            int times = 5;
+            Console.WriteLine("You have " + times + " tries");
             Console.WriteLine("Now you need to guess:");
-            
-            while (true)
+
+
+            for (int i = 0; i < times; i++)
             {
                 int usersNumber = int.Parse(Console.ReadLine());
                 
@@ -38,9 +41,12 @@ namespace Numbers_guesing_game
                     break;
              
                 }
+
+                Console.WriteLine(times - i - 1 + " tries left");
                 
             }
-          
+            Console.WriteLine("You lose.");
+            Console.ReadLine();
 
         }
     }
