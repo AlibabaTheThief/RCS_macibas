@@ -10,6 +10,13 @@ namespace Numbers_guesing_game
     {
         static void Main(string[] args)
         {
+
+            StartGame();
+        }
+
+        static void StartGame()
+
+        {
             Console.WriteLine("Let's play a game");
             Console.WriteLine();
             Console.WriteLine("Choose max number:");
@@ -39,15 +46,19 @@ namespace Numbers_guesing_game
                     Console.WriteLine("Well done!");
                     Console.ReadLine();
                     break;
+                    
              
                 }
 
                 Console.WriteLine(times - i - 1 + " tries left");
                 
             }
-            Console.WriteLine("You lose.");
-            Console.ReadLine();
-
+      
+          
+         
+                Console.WriteLine("Number was " + number);
+                Console.ReadLine();
+          
         }
     }
 }
